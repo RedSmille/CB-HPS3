@@ -200,6 +200,7 @@ def ObtenerRespuesta(ListaIntentos, JsonIntentos):
                 ]
             elif Intento['tag'] == "pagina_web":
                 return [
+                    '<img decoding="async" width="250" class="elemento_interno" src="Pagina.png" alt="">',
                     Respuesta,
                     '<button class="info" onclick="window.open(\'https://hospitalpediatrico.org/oficial/\', \'_blank\');">Pagina Web Oficial ➡️➡️🌐</button>'
                 ]
